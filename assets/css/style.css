@@ -391,5 +391,18 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 640px) {
- 
+  boddy { 
+    float: none;
+  }
+  h1 {
+    width: 100%;
+  }
+  nav {
+    float: none;
+    width: 100%;
+  }
+  img {
+    float: none;
+    width: 100%;
+  }
 }
