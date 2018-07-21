@@ -383,11 +383,18 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 980px) {
+  .container {
+    width: 100%;
+    max-width: 960px;
+  }
   
 }
 
 @media only screen and (max-width: 768px) {
-  
+  .container {
+    width: 100%;
+    max-width: 768px;
+  }
 }
 
 @media only screen and (max-width: 640px) {
@@ -398,11 +405,20 @@ input[type=submit] {
     width: 100%;
   }
   nav {
-    float: none;
+    float: center;
     width: 100%;
   }
   img {
     float: none;
+    width: 100%;
+  }
+  nav a {
+    float: center;
+  }
+  #logo {
+    width: 100%;
+  }
+  .auth-image {
     width: 100%;
   }
 }
